@@ -1,0 +1,32 @@
+{
+	"name": "georgringer/no-sudo-mode",
+	"description": "Skip sudo mode for dev environments. Don't use on production",
+	"license": "GPL-2.0-or-later",
+	"type": "typo3-cms-extension",
+	"keywords": [
+		"TYPO3",
+		"extension",
+		"sudo mode"
+	],
+	"authors": [
+		{
+			"name": "Georg Ringer",
+			"homepage": "https://ringer.it",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">= 8.1 < 8.5",
+		"typo3/cms-backend": "^12.4.32 || ^13.4.13"
+	},
+	"autoload": {
+		"psr-4": {
+			"GeorgRinger\\NoSudoMode\\": "Classes"
+		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "news"
+		}
+	}
+}

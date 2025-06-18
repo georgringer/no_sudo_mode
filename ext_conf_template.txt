@@ -1,0 +1,2 @@
+# cat=import module/1; type=string; label=Skip for domaisn
+skipDomains = |.*\.ddev.site|,|^internal\.example\.com$|
